@@ -1,1 +1,51 @@
+# =========================
+# Python virtual environment
+# =========================
 .venv/
+venv/
+env/
+
+# =========================
+# Python cache / compiled files
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+
+# =========================
+# Data
+# Do not commit downloaded or processed datasets
+# =========================
+data/raw/*
+data/processed/*
+
+# Keep empty data directories in Git
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# =========================
+# Generated outputs
+# =========================
+outputs/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
