@@ -39,6 +39,12 @@ data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
+# Exceptions: track these specific files
+!data/raw/x5/clients.csv.gz
+!data/raw/x5/uplift_train.csv.gz
+!data/raw/x5/retailhero_causal_forest_features.csv
+!data/processed/retailhero.ipynb
+
 # =========================
 # Generated outputs
 # =========================
