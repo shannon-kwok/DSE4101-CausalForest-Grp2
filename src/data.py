@@ -8,16 +8,13 @@ RAW_DATA_DIR = PROJECT_ROOT / "data" / "raw"
 X5_DATA_DIR = RAW_DATA_DIR / "x5"
 
 
-def load_x5():
-    """
-    Download and load the X5 RetailHero dataset.
+def download_x5():
+    """Download the raw X5 RetailHero dataset."""
 
-    The raw dataset is stored in:
-        data/raw/x5/
-    """
-
-    # Make sure the raw data directory exists
     RAW_DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+    print("Downloading X5 RetailHero dataset...")
+    print(f"Destination: {X5_DATA_DIR.resolve()}")
 
     dataset = fetch_x5(
         data_home=str(RAW_DATA_DIR),
@@ -25,4 +22,10 @@ def load_x5():
         download_if_missing=True,
     )
 
+    print("Download complete.")
+
     return dataset
+
+
+if __name__ == "__main__":
+    download_x5()
