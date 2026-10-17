@@ -1,0 +1,6 @@
+group,importance,importance_uncorrected,raw,raw_uncorrected,n_columns,columns,fit_seconds
+Loyalty points,0.33407303690249135,0.33407300342901003,0.8429705817338186,0.8429706286211477,6,"regular_points_received, regular_points_spent, express_points_received, express_points_spent, net_regular_points_change, net_express_points_change",117.8
+Spending,0.07848005060191032,0.07848007565646387,0.5873775954332375,0.5873777008486015,4,"total_spend, avg_transaction_spend, median_transaction_spend, spend_std",102.3
+Frequency/recency,0.07317177048650636,0.07317128395778916,0.5820693153178336,0.5820689091499268,4,"num_transactions, days_since_last_purchase, avg_days_between_transactions, customer_activity_span",116.6
+Store engagement,0.0633758578299537,0.06337608017092367,0.5722734026612809,0.5722737053630613,4,"num_stores_visited, num_unique_products, total_quantity, avg_items_per_transaction",114.3
+Demographics,0.056584271794882346,0.05658455704736931,0.5654818166262096,0.565482182239507,3,"age, gender_F, gender_M",117.7
