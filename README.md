@@ -92,10 +92,10 @@ Then, open Jupyter Notebook and execute the notebooks in the following order:
 1. `notebooks/retailhero.ipynb` — Data cleaning and feature engineering
 2. `notebooks/ate_benchmark.ipynb` — ATE estimation
 3. `notebooks/lasso.ipynb` — Exploratory LASSO screening
-4. `notebooks/logistic_regression.ipynb` — Regression-based HTE estimation
+4. `notebooks/lpm_interaction.ipynb` — Regression-based HTE estimation
 5. `notebooks/causal_forest.ipynb` — Causal forest training and CATE estimation
-
-After fitting the causal forest, run the variable-importance and targeting-evaluation notebooks for the remaining analyses.
+6. `notebooks/cf_targeting.ipynb` - Comparison of targeting strategies with causal forest targeting
+7. `notebooks/variable_importance.ipynb` - Variable importance analysis
 
 ## 6. Contributors
 
