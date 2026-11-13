@@ -1,6 +1,6 @@
 # Causal Forest Applications in Marketing Campaign Evaluation and Customer Targeting
 
-** DSE4101 Capstone Project, Digital Economy,  Group 2 **
+**DSE4101 Capstone Project, Digital Economy,  Group 2**
 
 ## 1. Research Question
 
