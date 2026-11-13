@@ -9,7 +9,7 @@ out-of-bag CATEs:
 
 where I_n(0) is the same score for a forest retrained on all columns (retraining bias).
 
-EconML has no equivalent of grf's ``get_forest_weights``, so the retrained forest's out-of-bag
+EconML has no equivalent of grf's get_forest_weights, so the retrained forest's out-of-bag
 weights alpha are rebuilt from its subsample and honest-split indices. Products ``alpha @ v``
 are computed tree by tree as leaf means, without materialising the n x n matrix.
 """
